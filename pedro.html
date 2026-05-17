@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+</head>
+<style link: href="pedro.css" rel="stylesheet">
+</style>
+
+<body>
+    <div class="maior">
+        <div class="grandão">
+            <H1>Calculadora Simples</H1>
+            <p>Digite os números e selecione uma operação:</p>
+        </div>
+
+        <div class="calculadora">
+            <table>
+                <tr>
+                    <td><input type="number" id="num1" placeholder="1° Número "></td>
+                </tr>
+                <tr>
+                    <td><select name="aritimetica" id="aritimetica">
+                            <option value="somar">Somar (+)</option>
+                            <option value="subtrair">Subtrair (-)</option>
+                            <option value="multiplicar">Multiplicar (x)</option>
+                            <option value="dividir">Dividir (÷)</option>
+                            <option value="elevar">Elevar (^)</option>
+                            <option value="mmc">MMC</option>
+                            <option value="mdc">MDC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="num2" placeholder="2° Número"></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="calcular()">Calcular</button></td>
+                </tr>
+            </table>
+            <div id="resultado" class="resultado">Resultado = </div>
+        </div>
+    </div>
+    <script src="pedro.js"></script>
+
+</body>
+
+</html>

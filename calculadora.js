@@ -3,7 +3,7 @@ function calcular() {
     const num2 = parseFloat(document.getElementById('num2').value);
     const operacao = document.getElementById('aritimetica').value;
     const resultadoDiv = document.getElementById('resultado');
-     if (isNaN(num1) || isNaN(num2)) {
+    if (isNaN(num1) || isNaN(num2)) {
         resultadoDiv.innerText = 'Digite números válidos!';
     return;
     }
